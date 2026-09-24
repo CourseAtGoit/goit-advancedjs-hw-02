@@ -4,6 +4,8 @@
   | default @import url()
   |============================
 */
+@import url('flatpickr/dist/flatpickr.min.css');
+@import url('izitoast/dist/css/iziToast.min.css');
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
@@ -12,7 +14,6 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
 @import url('./back-link.css');
-@import url('./footer.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
