@@ -1,6 +1,8 @@
 import flatpickr from 'flatpickr';
 import iziToast from 'izitoast';
 
+import errorIcon from '../img/error.svg';
+
 const refs = {
   input: document.querySelector('#datetime-picker'),
   startBtn: document.querySelector('[data-start]'),
@@ -55,7 +57,7 @@ const options = {
         backgroundColor: '#ef4040',
         titleColor: '#ffffff',
         messageColor: '#ffffff',
-        iconUrl: './img/error.svg',
+        iconUrl: errorIcon,
       });
     } else {
       refs.startBtn.removeAttribute('disabled');
